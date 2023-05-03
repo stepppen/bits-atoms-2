@@ -4,9 +4,9 @@ html {
     font-family: 'B612 Mono', monospace;
     background-image: url("world.jpg");
 }
+
 body {
     margin: 0;
-    
 }
 
 .header {
@@ -20,12 +20,13 @@ body {
     background: black;
 }
 
-.content_div{
+.content_div {
+    height: 100%;
     display: flex;
 }
 
 .first_div {
-    
+
 
     /* top: 50%;
     left: 50%;
@@ -38,14 +39,15 @@ body {
 
     border: 2px solid white;
     border-radius: 20px;
-        
+
     height: 30%;
     width: 50%;
 
 }
+
 .welcomeHeading {
     font-weight: 700;
-    color:white;
+    color: white;
 }
 
 
@@ -58,10 +60,13 @@ body {
     border: none;
 
 }
+
 .btn-1:hover {
-    
+
     color: white;
-    background: rgb(207, 39, 107);;
+    background: rgb(207, 39, 107);
+
+
 }
 
 .btn-header {
@@ -71,7 +76,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: white;
-    
+
     background: none;
 }
 
@@ -80,7 +85,8 @@ body {
     font-family: 'B612 Mono', monospace;
     font-style: italic;
     text-decoration: underline;
-    
+
+
 }
 
 .text-1 {
@@ -94,7 +100,13 @@ body {
 
 a {
     color: white;
-    opacity: 0.8;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(207, 39, 107);
+    font-style: italic;
 }
 
 .img_div {
@@ -104,17 +116,24 @@ a {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
+
 .footer_div {
-    margin-bottom: 0;
+    z-index: 1;
+    margin: inherit;
+    position: relative;
+    bottom: 0;
+    height: 50px;
     width: 100vw;
-    background-color: none;
+    background-color: black;
     border: none;
 }
+
 .footer_list {
+
     background-color: none;
     border: none;
-    margin: 5%;
+    margin-left: 5%;
     color: white;
 }
