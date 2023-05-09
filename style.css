@@ -121,7 +121,7 @@ a:hover {
 
 .footer_div {
     z-index: 1;
-    margin: inherit;
+    margin: 0;
     position: relative;
     bottom: 0;
     height: 50px;
