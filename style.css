@@ -23,6 +23,7 @@ body {
 .content_div {
     height: 100%;
     display: flex;
+    /* justify-content: space-evenly; */
 }
 
 .first_div {
